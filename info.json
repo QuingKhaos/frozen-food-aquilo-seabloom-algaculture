@@ -1,12 +1,18 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "frozen-food-aquilo-seabloom-algaculture",
+  "title": "Frozen Food for Wooden Aquilo: Seabloom Algaculture",
+  "description": "Adds frozen food support to Seabloom Algaculture.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
-  ]
+    "base >= 2.0.77",
+
+    "FrozenFood >= 1.2.2",
+    "FrozenFoodLib >= 1.0.0",
+
+    "aquilo-seabloom-algaculture >= 0.4.4"
+  ],
+  "spoiling_required": true
 }
